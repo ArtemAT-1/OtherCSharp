@@ -13,7 +13,7 @@ namespace Massiv
 			for (int i=1 ; i<=s.Length; i++)
 			{
 				String n=s.Substring(s.Length-i, 1);
-               		 Console.Write(n);
+               			Console.Write(n);
 			}
 		}
 	}
