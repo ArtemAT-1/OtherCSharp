@@ -10,13 +10,10 @@ namespace Massiv
         static void Main(string[] args)
         {
 			string s="INTMA";
-			int i; int j=1;
-			for (i=1 ; i<=s.Length; i++)
+			for (int i=1 ; i<=s.Length; i++)
 			{
-				String m=s.Substring(s.Length-j);//A,MA,TMA,...
-				String n=m.Remove(1, m.Length-1);//A,M,T,...
-				Console.Write(n);
-                j++;
+				String n=s.Substring(s.Length-i, 1);
+               		 Console.Write(n);
 			}
 		}
 	}
